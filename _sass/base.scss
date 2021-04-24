@@ -80,6 +80,25 @@ img.avatar{
 }
 
 /**
+ * GCal/iFrame
+ */
+
+.gcal{
+  position: relative;
+  height: 30em;
+  width: 100%;
+  padding-bottom: 25%;
+}
+
+.gcal iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/**
  * Code and syntax highlighting
  */
 .lineno { color: var(--code-color-1); margin-right: 15px; }

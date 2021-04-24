@@ -38,5 +38,5 @@ I have a copy of a PDF resume [here]({{site.github.url}}/assets/pdf/Resume.pdf)
 - Cloud related: AWS (including AWS SDK)
 
 # Email 
-Interested in hiring me? Or do you just want to say hi? Leave me a email!
+Interested in hiring me? Or do you just want to say hi? Leave me an email!
 judyfan393 (@) gmail.com
