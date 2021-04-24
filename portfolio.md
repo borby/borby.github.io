@@ -24,4 +24,4 @@ _"after uni train ride home", painted in 2020, Photoshop CC 2015_
 I have more uploaded to [Artstation](https://www.artstation.com/zephyrus97)
 
 # Email 
-judyfan393 (@) gmail.com
+hello (@) judyfan.me
