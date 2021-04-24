@@ -1,15 +1,23 @@
-# Example Site settings
+# Configuration
 
-#google_analytics: UA-NNNNNNNN-N
-
-#header_pages:
-#  - index.md
-#  - about.md
-
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
-
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
+title: Judy (Zephyr) Fan 
+email: judyfan393@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://borby.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
+
+header_pages:
+  - index.md
+  - about.md
+  - portfolio.md
+
+
+#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+#google_analytics: UA-NNNNNNNN-N

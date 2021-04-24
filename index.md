@@ -1,9 +1,18 @@
 ---
-title: /
+title: /index
 layout: home
 permalink: /
 ---
 
-# Lorem ipsum
+# Hello there! I'm Judy, or please call me Zeph :)
+> Judy (Zephyr) Fan - **they/them** - final year Computer Science student @ UNSW
+>
+> Intern Computer Security Incident Handler @ Salesforce
+>
+> Portrait artist. Script monkey. Software engineer in training. Computer breaker (now, what that means is entirely to you. It's probably correct.)
+>
+> Make. Break. Make. Break.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This website serves as a static repository of mainly my personal things, including my tech projects, my art portfolio and other miscellaneous adventures. 
+
+# Blog posts
