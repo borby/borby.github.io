@@ -21,6 +21,33 @@
     {%- endif -%}
   {%- endif -%}
 
+
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/fullcal/main.css" | relative_url }}">
+  <script src="{{ "/assets/fullcal/main.js" | relative_url }}"></script>
+  <script src="{{ "/config.js" | relative_url }}"></script>
+  <script>
+    var api = config.GCAL_API
+    var personal_cal = config.GCAL_PERSONAL_ID
+    var uni_cal = config.GCAL_UNI_ID
+    document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+      
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      googleCalendarApiKey: api, 
+      eventSources: [
+        {
+          googleCalendarId: personal_cal 
+        },
+        {
+          googleCalendarId: uni_cal,
+        }
+      ]
+    });
+
+    calendar.render();
+  });
+  </script>
+
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
