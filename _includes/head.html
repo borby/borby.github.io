@@ -26,22 +26,16 @@
   <script src="{{ "/assets/fullcal/main.js" | relative_url }}"></script>
   <script src="{{ "/config.js" | relative_url }}"></script>
   <script>
-    var api = config.GCAL_API
-    var personal_cal = config.GCAL_PERSONAL_ID
-    var uni_cal = config.GCAL_UNI_ID
+    var api = ${{ secrets.GCAL_API }}
+    var personal_cal = ${{ secrets.GCAL_PERSONAL_ID }}
     document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
       
     var calendar = new FullCalendar.Calendar(calendarEl, {
       googleCalendarApiKey: api, 
-      eventSources: [
-        {
+      events: {
           googleCalendarId: personal_cal 
-        },
-        {
-          googleCalendarId: uni_cal,
-        }
-      ]
+      }
     });
 
     calendar.render();
