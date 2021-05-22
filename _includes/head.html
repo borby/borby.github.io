@@ -22,25 +22,6 @@
   {%- endif -%}
 
 
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/fullcal/main.css" | relative_url }}">
-  <script src="{{ "/assets/fullcal/main.js" | relative_url }}"></script>
-  <script>
-    var api = "AIzaSyDusMiEcFsUPcGCj5zmbzJFBZq379FTMNs" 
-    var personal_cal = "fil1gqf6va9p2tmrpu6cf00de4@group.calendar.google.com" 
-    document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-      
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-      googleCalendarApiKey: api, 
-      events: {
-          googleCalendarId: personal_cal 
-      }
-    });
-
-    calendar.render();
-  });
-  </script>
-
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}

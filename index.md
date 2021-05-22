@@ -16,7 +16,6 @@ permalink: /
 This website serves as a static repository of mainly my personal things, including my tech projects, my art portfolio and other miscellaneous adventures. 
 
 # My availability
-This is an interm build, but assume any undefined events is when I am busy.
-<div id='calendar'></div>
+[Click here to view my calendar](https://calendar.google.com/calendar/embed?src=fil1gqf6va9p2tmrpu6cf00de4%40group.calendar.google.com&ctz=Australia%2FSydney)
 
 # Blog posts
